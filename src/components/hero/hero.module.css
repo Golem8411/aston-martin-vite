@@ -1,0 +1,32 @@
+.Hero{
+    padding-top: 4rem;
+}
+.heroWrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    align-items: center;
+}
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.btnHero{
+    padding-top: 1rem;
+}
+
+.heroContent h2{
+    color: var(--color-white);
+    font-size: 50px;
+    font-weight: 600;
+}
+.heroContent h2 span{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 300;
+}
+.heroContent p{
+    color: var(--color-white);
+}
