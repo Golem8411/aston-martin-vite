@@ -1,0 +1,31 @@
+.Header{
+    border-bottom: 2px solid var(--color-gray) ;
+}
+
+
+.wrapperHeader{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 16px 8px 16px;
+}
+
+.ulMenu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.ulMenu .navLi a{
+    transition: ease-in-out 0.2s;
+}
+
+.ulMenu .navLi a:hover{
+    color: var(--color-red);
+}
+
+#menuIcons{
+    display: none;
+}
