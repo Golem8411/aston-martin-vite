@@ -1,0 +1,41 @@
+.Vantage{
+    padding: 0px 12px 12px 12px
+}
+.vantageWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin: 0 auto;
+    max-width: var(--max-width);
+}
+
+.vantageContent p{
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 45ch;
+}
+
+.btnVantage{
+    margin-top: 2rem;
+}
+
+.vantageImg img{
+    width: 100%;
+}
+@media(max-width:600px) {
+    .vantageWrapper{
+        padding: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .vantageContent{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .btnVantage{
+        display: flex;
+        justify-content: center;
+    }
+}
+
